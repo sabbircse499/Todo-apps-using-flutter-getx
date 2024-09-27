@@ -53,7 +53,7 @@ class _PageState extends State<Home> {
         actions: [
 
           IconButton(
-            icon: Icon(Icons.calendar_today, color: Colors.white), // Calendar icon
+            icon: Icon(Icons.tips_and_updates_outlined, color: Colors.white), // Calendar icon
             onPressed: () {
               Get.toNamed('/tips'); // Navigate to Calendar Page
             },
